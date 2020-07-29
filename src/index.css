@@ -1,0 +1,185 @@
+body{
+  overflow: hidden;
+}
+nav{
+  margin-top: -8px;
+  background-color: white;
+}
+.brandnameimage {
+  width: 40px;
+  height: 15px;
+}
+.brandnameimage {
+  width: 70px;
+  height: 23px;
+  margin-top: 12%;
+}
+.menubutton{
+  margin-right: 26px;
+  color: #fff;
+  background-color: #ff914d;
+  border-color:#ff914d ;
+}
+.nav-link:hover {
+  border-bottom: 3px solid #FF914D;
+}
+.page1 {
+  padding-top: 10%;
+  padding-left: 4%;
+  padding-bottom: 13%;
+  vertical-align: middle;
+  margin: auto;
+  /* height: 100%; */
+  /* height: 100vh; */
+}
+.row {
+  margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col1 {
+  display: inline-block;
+  width: 50%;
+}
+.Page1h6{
+  color: #ff914d;
+}
+.mainHeading {
+  font-size: 3.3rem;
+  letter-spacing: 1px;
+}
+.orangeText {
+  color: #FF914D;
+}
+.mainPageP {
+  width: 90%;
+  font-size: 1.2rem;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.button1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 2%;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #FF914D;
+  border-color: #FF914D;
+  color: white;
+}
+.button2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 2%;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #fff;
+  border-color: #FF914D;
+  color: #FF914D;
+}
+.deliveryLink {
+  margin-top: 2%;
+}
+.learnmore{
+  color: #ff914d;
+}
+.learnmore:hover{
+  color: #ff914d;
+}
+
+.linkstarted {
+  text-decoration: underline;
+}
+.image {
+  /* padding-top: 13%; */
+  width: 95%;
+  height: 90%;
+  padding-right: 5%;
+  /* margin-top: 5%; */
+}
+
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.navbar-expand-md .navbar-toggler {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px){
+.logoimage {
+    width: 30px;
+    height: 30px;
+}
+.col1 {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.page1 {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+}
+.page1imagecol {
+  padding: 0%;
+  padding-right: 4%;
+}
+.page1 h6 {
+  padding-top: 9%;
+  font-size: 0.8rem;
+}
+.page1 h1 {
+  padding: 0% 0%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.mainPageP {
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.button1 {
+  padding: 1% 5%;
+}
+.button2 {
+  padding: 1% 5%;
+}
+.deliveryLink {
+  font-size: 0.8rem;
+}
+.image {
+  padding-top: 5%;
+  margin-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: 0%;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px){
+.button1 {
+    margin-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.image {
+  margin-top: 0%;
+  padding: 0% 5%;
+}
+}
